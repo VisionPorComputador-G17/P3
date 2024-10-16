@@ -5,9 +5,11 @@ Detección y reconocimiento de formas en imágenes a partir de umbralizados, det
 
 ## Tareas del Proyecto
 - Determinar la cantidad de monedas (euro) en una imagen.
+  
 ![Recuento de euros](image-2.png)
 
 - Detección y clasificación de las partículas (plástico, pellets y alquitrán) en imágenes de muestras recogidas en playas.
+  
 ![Clasificación de partículas](image.png)
 ![Matriz de confusión](image-1.png)
 
