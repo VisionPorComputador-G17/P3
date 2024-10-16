@@ -5,9 +5,11 @@ Detección y reconocimiento de formas en imágenes a partir de umbralizados, det
 
 ## Tareas del Proyecto
 - Determinar la cantidad de monedas (euro) en una imagen.
-
+![Recuento de euros](image-2.png)
 
 - Detección y clasificación de las partículas (plástico, pellets y alquitrán) en imágenes de muestras recogidas en playas.
+![Clasificación de partículas](image.png)
+![Matriz de confusión](image-1.png)
 
 
 ## Requisitos
@@ -38,10 +40,15 @@ conda install -n VC_P3 ipykernel --update-deps --force-reinstall
 ```
 
 ## Bibliografía
+[OpenCV Contour Features](https://docs.opencv.org/4.x/dd/d49/tutorial_py_contour_features.html)
+
+[Detector de bordes con Canny](https://programarfacil.com/blog/vision-artificial/detector-de-bordes-canny-opencv/)
+
+[Numpy.zeros](https://numpy.org/doc/2.0/reference/generated/numpy.zeros_like.html)
+
 
 
 ## Autoría
 [Sara Expósito Suárez](https://github.com/SaraE5)
 
 [Alejandro Padrón Ossorio](https://github.com/apadoss)
-
