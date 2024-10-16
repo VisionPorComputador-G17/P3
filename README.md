@@ -8,6 +8,14 @@ Detección y reconocimiento de formas en imágenes a partir de umbralizados, det
   
 ![Recuento de euros](image-2.png)
 
+Se realiza un preprocesamiento de la imagen inicial en la que se realiza una conversión de la imagen de BGR a RGB, una conversión de RGB a HSV para la posterior detección de colores, una conversión de RGB a escala de grises y finalmente, a la imagen en escala de grises, se le aplica un desenfoque gaussiano para eliminar posible ruido en la imagen.
+
+Posteriormente se realiza la detección de contornos con la función `cv2.findContours`.
+
+A continuación, se le muestra al usuario una ventana con la imagen para que de clic sobre la moneda de 1 euro y tomarla como referencia para determinar un factor de escala.
+
+Finalmente se realiza la detección de monedas según su radio y su color. De esta forma se puede diferenciar entre monedas muy similares en tamaño, como puede ser las monedas de 50 céntimos y 2 euros o las monedas de 5 céntimos y 10 céntimos.
+
 - Detección y clasificación de las partículas (plástico, pellets y alquitrán) en imágenes de muestras recogidas en playas.
   
 ![Clasificación de partículas](image.png)
